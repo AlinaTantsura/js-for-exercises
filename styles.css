@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../fonts/DMSans-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+}
+/* button{
+    font-family: inherit;
+} */
+ul{
+    list-style: none;
+}  
+
+.title{
+    width: 300px;
+    background-image: linear-gradient(70deg, blue, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Section-rent */
+.rent-box{
+    width: 1200px;
+    background-color: #000000;
+}
+.title-rent{
+    width: 882px;
+    color:#F6F5EF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -4.5px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.btn-rent{
+    font-family: inherit;
+    font-style: normal;
+    color: #F6F5EF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.81px;
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid #F6F5EF;
+
+    display: flex;
+    padding: 14px 28px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Footer */
+.social-media-list{
+    display: flex;
+    gap: 24px;
+}
+
+.social-media-item{
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-icon{
+    fill:aqua;
+}
+
+.social-media-item:hover{
+    border-color: green;
+}
+.social-media-item:hover .media-icon{
+    /* background-image: linear-gradient(70deg, blue, pink);
+    background-color: aqua; */
+    background-image: url(./icons.svg#u_facebook-f);
+    background-size: cover;
+    /* background-color: blue; */
+    fill: transparent;
+}
