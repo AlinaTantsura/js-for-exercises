@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+  rel="stylesheet"
+  href="/swiper-styles.css"
+/>
+    <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="/styles.css" />
+
+<link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header>
@@ -16,50 +21,25 @@
       <img src="./images/img2.png" />
     </header>
     <main>
-      <section>
-        <h1 class="title">Hello Everybody!!!</h1>
-        <form>
-          <label>
-            Full name
-            <input
-              type="text"
-              name="name"
-              pattern="[A-Za-z]{2,}"
-              title="Name contains only at least two Latin letters."
-            />
-          </label>
-          <br />
-          <label>
-            E-mail
-            <input type="email" name="email" />
-          </label>
-          <br />
-          <label>
-            Phone number
-            <input
-              type="tel"
-              name="phone-number"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-              title="Phone-number in format 099-999-99-99"
-            />
-          </label>
-          <br />
-          <label>
-            Comment
-            <textarea rows="5" name="comment"></textarea>
-          </label>
-          <br />
-          <button type="submit">Send</button>
-        </form>
-      </section>
-      <section>
-        <div class="rent-box">
-          <h2 class="title-rent">
-            Choose your dream yacht and sail away into the sunset
-          </h2>
-          <button class="btn-rent" type="button">Yacht rental</button>
-        </div>
-      </section>
+        <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/img-1.jpg"></div>
+    <div class="swiper-slide"><img src="images/img-2.jpg"></div>
+    <div class="swiper-slide"><img src="images/img-3.jpg"></div>
+    <div class="swiper-slide"><img src="images/img-4.jpg"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
     </main>
     <footer>
       <p>Social media</p>
@@ -87,5 +67,8 @@
         </li>
       </ul>
     </footer>
+
+    <script type="module" src="/swiper-of.js"></script>
+    <script type="module" src="/swiper.js"></script>
   </body>
 </html>

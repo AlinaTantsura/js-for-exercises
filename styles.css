@@ -6,6 +6,7 @@
 
 body{
     font-family: "DM Sans", sans-serif;
+    background-color: blueviolet;
 }
 /* button{
     font-family: inherit;
@@ -52,6 +53,43 @@ ul{
     padding: 14px 28px;
     align-items: flex-start;
     gap: 10px;
+}
+/* Reviews section */
+.block-review-section {
+    padding-bottom: 164px;
+}
+
+.block-review-container {
+    padding-bottom: 107px;
+}
+.block-review-list{
+    display: flex;
+}
+
+
+
+
+/* Styles for test of swiper*/
+.swiper{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.swiper-wrapper{
+    box-sizing: content-box;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    width: 100%;
+    width: 100%;
 }
 
 /* Footer */
