@@ -1,1 +1,1 @@
-# Team-project-my2
+# Project for the JavaScript test tasks

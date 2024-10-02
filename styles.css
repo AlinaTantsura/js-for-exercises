@@ -1,12 +1,6 @@
-@font-face {
-    font-family: 'DM Sans';
-    src: url(../fonts/DMSans-VariableFont_opsz\,wght.ttf);
-    src: url(../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
-}
-
 body{
     font-family: "DM Sans", sans-serif;
-    background-color: blueviolet;
+    background-color: whitesmoke;
 }
 /* button{
     font-family: inherit;
