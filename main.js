@@ -1,5 +1,7 @@
 import "./homework_4.js";
 import "./homework_5.js";
+import "./homework_6.js";
+import "./homework_7/homework_7.js";
 
 // function makeTransaction(quantity, pricePerDroid, customerCredits){
 //     const totalPrice = quantity * pricePerDroid;
